@@ -1,0 +1,20 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+header {
+    grid-area: header;
+    
+    max-width: 1200px;
+    width: 100%;
+}
+main {
+    grid-area: main;
+    
+}
+footer {
+    grid-area: footer;
+}
