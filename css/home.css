@@ -1,6 +1,7 @@
 .home {
     background-image: url(../img/fundo.png);
     height: 100vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     display: grid;
@@ -15,46 +16,48 @@
 .logo_fifa_world{
     grid-area: logo;
     margin-top: 50px;
-    margin-left: 30px;
-    height: 125px;
+    margin-left: 50px;
+    height: 175px;
 }
 .home__play{
     grid-area: titulo;
-    margin-left: 30px;
-    font-size: 70px;
+    margin-left: 50px;
+    font-size: 100px;
     letter-spacing: 5px;
     color: rgb(27, 30, 57);
     font-family: 'Bebas Neue', cursiva;
 }
 .home__cup{
     grid-area: titulo;
-    margin-top: 80px;
-    margin-left: 30px;
-    font-size: 70px;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 100px;
     letter-spacing: 5px;
     color: rgb(27, 30, 57);
     font-family: 'Bebas Neue', cursiva;
 }
 .home__vivencie{
     grid-area: paragrafo;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(27, 30, 57);
     font-family: 'Bebas Neue', cursiva;
-    margin-bottom: 150px;
-    margin-left: 30px;
+    margin-bottom: 1000px;
+    margin-left: 50px;
 
 
 }
 .home__nine{
     grid-area: paragrafo;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 50px;
     color: rgb(27, 30, 57);
     font-family: 'Bebas Neue', cursiva;
 }
 .taca{
     grid-area: taca;
+    height: 800px;
+    margin-left: 150px;
     margin-top: 25px;
     
 }
@@ -66,19 +69,19 @@
     align-items: center;
     background-color: rgb(31, 31, 37);
     border-radius: 5px;
-    margin-left: 30px;
-    margin-top: -100px;
+    margin-left: 50px;
+    margin-top: -900px;
     justify-content: center;
     width: 150px;
-    height: 50px;
+    height: 70px;
 }
 .home__bmais{
     width: 150px;
-    height: 50px;
+    height: 70px;
     display: flex;
     color: white;
     margin-left: 350px;
-    margin-top: -100px;
+    margin-top: -900px;
     align-items: center;
     justify-content: center;
     border: 3px solid rgb(31, 31, 37);

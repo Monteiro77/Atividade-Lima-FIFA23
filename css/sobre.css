@@ -16,31 +16,31 @@
     justify-content: center;
     letter-spacing: 8px;
     color: rgb(37, 36, 36);
-    font-size: 120px;
+    font-size: 150px;
 }
 .grealish{
     grid-area: imagem;
-    height: 300px;
+    height: 450px;
 }
 .sobre__textA{
-    width: 550px;
+    width: 600px;
     height: 150px;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 50px;
     grid-area: paragrafo;
     color: rgb(27, 30, 57);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 .sobre__textB{
-    width: 550px;
+    width: 600px;
     height: 150px;
-    margin-top: 150px;
-    margin-left: 30px;
+    margin-top: 180px;
+    margin-left: 50px;
     grid-area: paragrafo;
     color: rgb(27, 30, 57);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }

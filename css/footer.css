@@ -9,6 +9,7 @@
 }
 .final{
     background-color: rgb(33, 33, 35);
+    height: 100px;
 }
 .titulo{
     grid-area: titulo;
@@ -23,7 +24,19 @@
     grid-area: icones;
     display: flex;
     justify-content: center;
-    gap: 350px;
+    gap: 500px;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
+}
+.barra{
+    height: 3px;
+    width: 1903px;
+    background-color: white;
+}
+.creditos{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
 }

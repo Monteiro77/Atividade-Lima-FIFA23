@@ -1,7 +1,7 @@
 .first-header{
     background-color: rgb(37, 36, 36);
-    height: 30px;
-    width: 1343px;
+    height: 3.5vh;
+    width: 1903px;
     display: flex;
     justify-content: end;
     gap: 50px;
@@ -41,4 +41,10 @@
 }
 .user{
     margin-top: 5px;
+}
+.menu logo{
+    transition: gold .5s;
+}
+.menu li:hover {
+    border-bottom: 4px solid var(--primary-color);
 }
