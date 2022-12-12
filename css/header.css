@@ -1,23 +1,44 @@
 .first-header{
     background-color: rgb(37, 36, 36);
     height: 30px;
-    width: 100%;
-}
-.question {
+    width: 1343px;
     display: flex;
     justify-content: end;
+    gap: 50px;
 }
+
 .ea-sports {
     width: 30px;
     height: 30px;
     display: flex;
     justify-content: end;
+    
 }
 .second-header {
     background-color: white;
     display: flex;
     gap: 72px;
-    font-size: 1.25rem;
-
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.content {
+    display: flex;
+    justify-content: end;
+    gap: 100px;  
+    margin-left: 190px;
+    margin-top: 23px;
+}
+.question{
+    margin-top: 5px;
+}
+.user{
+    margin-top: 5px;
 }

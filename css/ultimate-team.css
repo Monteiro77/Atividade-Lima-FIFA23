@@ -1,0 +1,50 @@
+.ultimate-team{
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "titulo titulo"
+    "imagens imagens"
+    "subtitulo subtitulo"
+    "legenda legenda";
+}
+.tittle{
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    color: rgb(37, 36, 36);
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagens{
+    grid-area: imagens;
+    margin-right: 55px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.subtitulo{
+    grid-area: subtitulo;
+    display: flex;
+    justify-content: center;
+    color: rgb(27, 30, 57);
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.legenda{
+    grid-area: legenda;
+    font-size: 15px;
+    width: 1250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-self: center;
+    color: white;
+    margin-top: -50px;
+}

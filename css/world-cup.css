@@ -1,0 +1,84 @@
+.world-cup{
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "titulo titulo"
+    "imagens imagens"
+    "subtitulos subtitulos"
+    "descricaoA descricaoB";
+}
+.world-cup__tittle{
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 3px;
+    color: rgb(37, 36, 36);
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagens{
+
+    grid-area: imagens;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 125px;
+    margin-top: -50px;
+}
+.world-cup__chave{
+    height: 250px;
+}
+.world-cup__jogadores{
+    height: 250px;
+}
+.subtitulos{
+    grid-area: subtitulos;
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    margin-top: -50px;
+    color: rgb(37, 36, 36);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+.world-cup__make{
+    margin-right: 65px;
+}
+.world-cup__players{
+    margin-left: 35px;
+    
+}
+.world-cup__descriptionmake{
+    grid-area: descricaoA;
+    width: 350px;
+    height: 75px;
+    margin-top: -70px;
+    margin-left: 200px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    
+}
+.world-cup__descriptionplayer{
+    grid-area: descricaoB;
+    width: 400px;
+    height: 75px;
+    margin-left: 25px;
+    margin-top: -70px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
