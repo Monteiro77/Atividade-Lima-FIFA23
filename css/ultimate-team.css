@@ -55,3 +55,9 @@
     color: white;
     margin-top: -70px;
 }
+@media(max-width:640px){
+    .ultimate-team{
+        display: none;
+    }
+
+}

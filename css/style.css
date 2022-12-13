@@ -7,7 +7,6 @@ body {
 }
 header {
     grid-area: header;
-    
     max-width: 1200px;
     width: 100%;
 }
@@ -15,6 +14,10 @@ main {
     grid-area: main;
     
 }
+section{
+    height: 100vh;
+}
 footer {
     grid-area: footer;
 }
+
