@@ -127,25 +127,25 @@
         display: none;
     }
     .home__play{
+        width: 100vw;
         display: flex;
-        justify-content: center;
+        justify-content: end;
         font-size: 35px;
-        margin-top: -40px;
         grid-area: titulo;
-        margin-right: 140px;
+        margin-left: -35px;
     }
     .home__cup{
         display: flex;
         justify-content: center;
-        font-size: 40px;
-        margin-top: 0px;
+        font-size: 35px;
         grid-area: titulo;
-        margin-right: 100px;
+        margin-top: 50px;
+        margin-left: 25px;
     }
     .taca{
         display: flex;
         grid-area: taca;
-        height: 500px;
+        height: 450px;
         justify-content: center;
         align-items: center;
         margin-left: 50px;

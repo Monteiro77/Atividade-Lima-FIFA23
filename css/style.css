@@ -4,6 +4,7 @@ body {
     "header"
     "main"
     "footer";
+    overflow-x: hidden;
 }
 header {
     grid-area: header;
@@ -20,4 +21,5 @@ section{
 footer {
     grid-area: footer;
 }
+
 
